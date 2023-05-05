@@ -79,9 +79,47 @@
         <li style="list-style: none; margin-left: 20px;"> Relative - the element is positioned relative to its normal position.</li>
         <li style="list-style: none; margin-left: 20px;"> Absolute - the element is positioned absolutely to its first positioned parent.</li>
         <li style="list-style: none; margin-left: 20px;"> Fixed - the element is positioned related to the browser window.</li>
-    
-    
+    <!-- class 4 -->
+  
+        <h1>CSS class 4 cheat sheet</h1>
+        <h3>Here is the link for a guide to flexbox
+          <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Click HERE</a>
+        </h3>
+        <h3> Dividers, flexbox and positioning</h3>
+        <p>dividers help you position your pictures and other elements how you want them </p>
+        <img src="./Assets/babyYoda.jpg"></img>
+        <img src="./Assets/luke.jpg"></img>
+        <img src="./Assets/leia.jpg"></img>
+        <img src="./Assets/DarthVader.jpg"></img>
+        <h3>Say we want these picture to stack up and down instead of side to side</h3>
+        <p>first we put the pictures in a divider or a div</p>
+        <p>make sure to give it an id in this cade I called it picture container</p>
+        <img src="./Assets/divexampleSW.png"></img>
+        <h3> Switch to your CSS file and then use flexbox by typing display:flex and then flex direction: row</h3>
+        <img src="./Assets/pictureContainerEX.png"></img>
+        <div id="pictureContainer">
+          <img src="./Assets/babyYoda.jpg"></img>
+          <img src="./Assets/luke.jpg"></img>
+          <img src="./Assets/leia.jpg"></img>
+          <img src="./Assets/DarthVader.jpg"></img>
+        </div>
+        <h3> Lets say we want to move the pictures to the center</h3>
+        <h3> we can give the whole box a left margin of 45%  I will also put space between them by using justify-content:space-between</h3>
+        <p>notice I gave this div an id of picContainer2</p>
+        <img src="./Assets/picContainer2exhtml.png"></img>
+        <h3> The CSS will look like this</h3>
+        <img src="./Assets/picContainer2ex.png"></img>
+        <h3> The result</h3>
+        <div id="pictureContainer2">
+          <img src="./Assets/babyYoda.jpg"></img>
+          <img src="./Assets/luke.jpg"></img>
+          <img src="./Assets/leia.jpg"></img>
+          <img src="./Assets/DarthVader.jpg"></img>
+        </div>
 
+        <h3>Here is the link for a guide to flexbox
+          <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Click HERE</a>
+        </h3>
 	<script src="index.js"></script>
   </body>
 </html>
