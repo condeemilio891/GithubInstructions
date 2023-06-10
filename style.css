@@ -9,10 +9,9 @@ body{
 h1{
     margin-left: 40%;
     color: #8800C7;
+    font-family: Inter;
 }
-li{
-    margin-top: 5px;
-}
+
 #pictureContainer{
     display:flex;
     flex-direction:column;
@@ -26,6 +25,36 @@ li{
     height: 1500px;
     width: 400px;
     margin-left:40%;
-    justify-content: space-between;
+    justify-content: center;
 }
+#YodaPic{
+    height: 100px;
+    width:80px;
+    margin:10%
+}
+#fluteBox{
+    /*   display:flex;
+      flex-direction:column; */
+      height:100px;
+      width:100px;
+      margin-right:400px;
+      height:100px;
+    /*  justify-content:space-between;*/
+    }
 
+    #div_top_hypers {
+        background-color:#eeeeee;
+        display:inline;      
+    }
+    #ul_top_hypers li{
+        display: inline;
+    }
+    #starwarsCPic{
+
+        height:200px;
+        width:200px;
+
+    }
+    #tylerTheCreatorPic{
+        border-radius: 100px;
+    }
